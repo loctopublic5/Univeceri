@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Điều Bất Ngờ Cho Em 💕</title>
+    <!-- Font chữ tròn trịa, đáng yêu -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        
+        <!-- Màn hình nhập điểm -->
+        <div id="input-section" class="screen active">
+            <div class="header">
+                <h2>Cùng Dororo Chọn Trường Nha 🎓</h2>
+                <p>Bạn Rô nhập điểm vào đây để Dororo tính cho nhé! 💕</p>
+            </div>
+            
+            <div class="scores-grid">
+                <div class="score-input">
+                    <label>Văn</label>
+                    <input type="number" id="score-van" min="0" max="10" step="0.25" placeholder="0 - 10">
+                </div>
+                <div class="score-input">
+                    <label>Toán</label>
+                    <input type="number" id="score-toan" min="0" max="10" step="0.25" placeholder="0 - 10">
+                </div>
+                <div class="score-input">
+                    <label>Lý</label>
+                    <input type="number" id="score-ly" min="0" max="10" step="0.25" placeholder="0 - 10">
+                </div>
+                <div class="score-input">
+                    <label>Địa</label>
+                    <input type="number" id="score-dia" min="0" max="10" step="0.25" placeholder="0 - 10">
+                </div>
+            </div>
+
+            <button id="calc-btn" class="magic-btn">
+                Xem điều bất ngờ 🪄
+            </button>
+
+            <!-- Bảng tra cứu điểm chuẩn -->
+            <div class="divider" style="margin-top: 40px;">
+                <span>📚 Điểm chuẩn tham khảo 2025 📚</span>
+            </div>
+            <div id="school-preview-list" class="school-preview-container">
+                <!-- Danh sách trường sẽ render ở đây -->
+            </div>
+        </div>
+
+        <!-- Màn hình kết quả -->
+        <div id="result-section" class="screen hidden">
+            <button id="back-btn" class="icon-btn">⬅ Quay lại</button>
+            <div class="results-header">
+                <h2>🌟 Lựa chọn tuyệt vời nhất 🌟</h2>
+            </div>
+            
+            <div id="user-scores" class="user-scores-container"></div>
+            
+            <div id="best-match" class="best-match-card">
+                <!-- Nội dung top 1 sẽ render ở đây -->
+            </div>
+
+            <div class="divider">
+                <span>✨ Các nguyện vọng phù hợp khác ✨</span>
+            </div>
+
+            <div id="other-matches" class="other-matches-list">
+                <!-- Các trường khác sẽ render ở đây -->
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- Chú mèo dẫn chuyện -->
+    <div id="pixel-cat" class="toolbar-pos">
+        <div id="cat-bubble" class="cat-bubble show">Xin chào, mình là Dororo - em của anh Lộc nè! Rô nhấn vào mình nhen! 💕</div>
+        <!-- Hình mèo xám đáng yêu pixel -->
+        <img src="https://cdn-icons-png.flaticon.com/512/1864/1864514.png" alt="Cute Cat" id="cat-img">
+    </div>
+
+    <!-- Pháo hoa tim -->
+    <div id="fireworks-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

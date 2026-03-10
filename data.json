@@ -1,0 +1,1779 @@
+{
+    "universities": [
+        {
+            "university_name": "ĐH Sư phạm Hà Nội",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Sư phạm Địa lí",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "120",
+                    "admission_points": {
+                        "2025": "28.79",
+                        "2024": "28.0",
+                        "2023": "27.5",
+                        "2022": "27.0"
+                    },
+                    "career_prospects": "Rất cao - giáo viên Địa"
+                },
+                {
+                    "major_name": "Sư phạm Lịch sử",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "110",
+                    "admission_points": {
+                        "2025": "28.5",
+                        "2024": "27.9",
+                        "2023": "27.2",
+                        "2022": "26.8"
+                    },
+                    "career_prospects": "Ổn định nhà nước"
+                },
+                {
+                    "major_name": "Sư phạm Ngữ văn",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "150",
+                    "admission_points": {
+                        "2025": "29.06",
+                        "2024": "28.2",
+                        "2023": "27.8",
+                        "2022": "27.3"
+                    },
+                    "career_prospects": "Cao nhất sư phạm"
+                },
+                {
+                    "major_name": "Giáo dục Chính trị",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "90",
+                    "admission_points": {
+                        "2025": "26.5",
+                        "2024": "25.8",
+                        "2023": "25.3",
+                        "2022": "24.9"
+                    },
+                    "career_prospects": "Ưu tiên công chức"
+                },
+                {
+                    "major_name": "Sư phạm Toán",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "130",
+                    "admission_points": {
+                        "2025": "27.8",
+                        "2024": "27.2",
+                        "2023": "26.8",
+                        "2022": "26.4"
+                    },
+                    "career_prospects": "Thiếu giáo viên Toán"
+                },
+                {
+                    "major_name": "Giáo dục Tiểu học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "250",
+                    "admission_points": {
+                        "2025": "25.1",
+                        "2024": "24.5",
+                        "2023": "24.0",
+                        "2022": "23.5"
+                    },
+                    "career_prospects": "Thiếu hụt lớn nhất"
+                },
+                {
+                    "major_name": "Sư phạm Tiếng Anh",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "100",
+                    "admission_points": {
+                        "2025": "27.0",
+                        "2024": "26.5",
+                        "2023": "26.0",
+                        "2022": "25.7"
+                    },
+                    "career_prospects": "Quốc tế hóa cao"
+                },
+                {
+                    "major_name": "Sư phạm Vật lí",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "80",
+                    "admission_points": {
+                        "2025": "26.8",
+                        "2024": "26.2",
+                        "2023": "25.8",
+                        "2022": "25.3"
+                    },
+                    "career_prospects": "Ổn định"
+                },
+                {
+                    "major_name": "Công tác xã hội",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "25.5",
+                        "2024": "25.0",
+                        "2023": "24.5",
+                        "2022": "24.0"
+                    },
+                    "career_prospects": "Tăng xã hội hóa"
+                },
+                {
+                    "major_name": "Tâm lí học giáo dục",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "26.2",
+                        "2024": "25.7",
+                        "2023": "25.2",
+                        "2022": "N/A"
+                    },
+                    "career_prospects": "Tư vấn giáo dục"
+                },
+                {
+                    "major_name": "Quản lí giáo dục",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "50",
+                    "admission_points": {
+                        "2025": "25.8",
+                        "2024": "25.3",
+                        "2023": "24.8",
+                        "2022": "24.3"
+                    },
+                    "career_prospects": "Quản lý trường học"
+                },
+                {
+                    "major_name": "Sư phạm Sinh học",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "90",
+                    "admission_points": {
+                        "2025": "26.5",
+                        "2024": "26.0",
+                        "2023": "25.5",
+                        "2022": "25.0"
+                    },
+                    "career_prospects": "Cao"
+                }
+            ]
+        },
+        {
+            "university_name": "ĐH KHXH&NV - ĐHQG HN",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Việt Nam học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "110",
+                    "admission_points": {
+                        "2025": "24.62",
+                        "2024": "24.0",
+                        "2023": "23.5",
+                        "2022": "23.0"
+                    },
+                    "career_prospects": "Du lịch quốc tế"
+                },
+                {
+                    "major_name": "Xã hội học",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "90",
+                    "admission_points": {
+                        "2025": "27.0",
+                        "2024": "26.5",
+                        "2023": "26.0",
+                        "2022": "25.5"
+                    },
+                    "career_prospects": "Nghiên cứu cao"
+                },
+                {
+                    "major_name": "Đông phương học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "25.5",
+                        "2024": "25.0",
+                        "2023": "24.5",
+                        "2022": "24.0"
+                    },
+                    "career_prospects": "Quan hệ Á Đông"
+                },
+                {
+                    "major_name": "Nhân học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "25.2",
+                        "2024": "24.8",
+                        "2023": "24.3",
+                        "2022": "23.8"
+                    },
+                    "career_prospects": "Văn hóa dân tộc"
+                },
+                {
+                    "major_name": "Tâm lí học",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "80",
+                    "admission_points": {
+                        "2025": "26.8",
+                        "2024": "26.3",
+                        "2023": "25.9",
+                        "2022": "25.4"
+                    },
+                    "career_prospects": "Tư vấn lâm sàng"
+                },
+                {
+                    "major_name": "Quốc tế học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "100",
+                    "admission_points": {
+                        "2025": "26.0",
+                        "2024": "25.5",
+                        "2023": "25.0",
+                        "2022": "24.5"
+                    },
+                    "career_prospects": "Ngoại giao tốt"
+                },
+                {
+                    "major_name": "Lịch sử",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "85",
+                    "admission_points": {
+                        "2025": "25.8",
+                        "2024": "25.3",
+                        "2023": "24.8",
+                        "2022": "24.3"
+                    },
+                    "career_prospects": "Bảo tàng/lịch sử"
+                },
+                {
+                    "major_name": "Triết học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "50",
+                    "admission_points": {
+                        "2025": "24.8",
+                        "2024": "24.3",
+                        "2023": "23.8",
+                        "2022": "23.3"
+                    },
+                    "career_prospects": "Lý luận chính trị"
+                },
+                {
+                    "major_name": "Địa lí kinh tế",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "75",
+                    "admission_points": {
+                        "2025": "25.0",
+                        "2024": "24.5",
+                        "2023": "24.0",
+                        "2022": "23.5"
+                    },
+                    "career_prospects": "Quy hoạch đô thị"
+                },
+                {
+                    "major_name": "Văn học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "65",
+                    "admission_points": {
+                        "2025": "26.2",
+                        "2024": "25.7",
+                        "2023": "25.2",
+                        "2022": "24.8"
+                    },
+                    "career_prospects": "Biên tập xuất bản"
+                },
+                {
+                    "major_name": "Ngôn ngữ học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "55",
+                    "admission_points": {
+                        "2025": "25.3",
+                        "2024": "24.8",
+                        "2023": "24.3",
+                        "2022": "N/A"
+                    },
+                    "career_prospects": "Dịch thuật"
+                },
+                {
+                    "major_name": "Báo chí",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "80",
+                    "admission_points": {
+                        "2025": "26.5",
+                        "2024": "26.0",
+                        "2023": "25.5",
+                        "2022": "25.0"
+                    },
+                    "career_prospects": "Truyền thông số"
+                },
+                {
+                    "major_name": "Quan hệ quốc tế",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "26.8",
+                        "2024": "26.3",
+                        "2023": "25.8",
+                        "2022": "25.3"
+                    },
+                    "career_prospects": "Ngoại giao"
+                },
+                {
+                    "major_name": "Kinh tế chính trị",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "25.5",
+                        "2024": "25.0",
+                        "2023": "24.5",
+                        "2022": "24.0"
+                    },
+                    "career_prospects": "Chính sách kinh tế"
+                },
+                {
+                    "major_name": "Xây dựng Đảng",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "45",
+                    "admission_points": {
+                        "2025": "25.0",
+                        "2024": "24.5",
+                        "2023": "24.0",
+                        "2022": "23.5"
+                    },
+                    "career_prospects": "Đảng chính trị"
+                }
+            ]
+        },
+        {
+            "university_name": "ĐH Văn hóa Hà Nội",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Quản lý VB văn hóa",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "80",
+                    "admission_points": {
+                        "2025": "22.5",
+                        "2024": "22.0",
+                        "2023": "21.5",
+                        "2022": "21.0"
+                    },
+                    "career_prospects": "Du lịch văn hóa"
+                },
+                {
+                    "major_name": "Bảo tồn di sản",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "23.0",
+                        "2024": "22.5",
+                        "2023": "22.0",
+                        "2022": "21.5"
+                    },
+                    "career_prospects": "UNESCO/di sản"
+                },
+                {
+                    "major_name": "Du lịch văn hóa",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "90",
+                    "admission_points": {
+                        "2025": "22.8",
+                        "2024": "22.3",
+                        "2023": "21.8",
+                        "2022": "N/A"
+                    },
+                    "career_prospects": "Phục hồi mạnh"
+                },
+                {
+                    "major_name": "Quản lý thông tin",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "23.5",
+                        "2024": "23.0",
+                        "2023": "22.5",
+                        "2022": "22.0"
+                    },
+                    "career_prospects": "Thư viện số"
+                },
+                {
+                    "major_name": "Văn hóa học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "50",
+                    "admission_points": {
+                        "2025": "22.2",
+                        "2024": "21.8",
+                        "2023": "21.3",
+                        "2022": "20.8"
+                    },
+                    "career_prospects": "Nghiên cứu văn hóa"
+                }
+            ]
+        },
+        {
+            "university_name": "ĐH Thủ đô Hà Nội",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Sư phạm Lịch sử",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "23.5",
+                        "2024": "23.0",
+                        "2023": "22.5",
+                        "2022": "22.0"
+                    },
+                    "career_prospects": "Giáo viên phổ thông"
+                },
+                {
+                    "major_name": "Sư phạm Ngữ văn",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "24.0",
+                        "2024": "23.5",
+                        "2023": "23.0",
+                        "2022": "22.5"
+                    },
+                    "career_prospects": "Ổn định"
+                },
+                {
+                    "major_name": "Giáo dục Tiểu học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "150",
+                    "admission_points": {
+                        "2025": "24.2",
+                        "2024": "23.7",
+                        "2023": "23.2",
+                        "2022": "22.7"
+                    },
+                    "career_prospects": "Cao"
+                }
+            ]
+        },
+        {
+            "university_name": "ĐH Sư phạm Hà Nội 2",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Giáo dục Tiểu học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "200",
+                    "admission_points": {
+                        "2025": "26.33",
+                        "2024": "25.8",
+                        "2023": "25.2",
+                        "2022": "24.7"
+                    },
+                    "career_prospects": "Rất cao, thiếu giáo viên tiểu học miền Bắc"
+                },
+                {
+                    "major_name": "Sư phạm Ngữ văn",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "120",
+                    "admission_points": {
+                        "2025": "28.52",
+                        "2024": "27.9",
+                        "2023": "27.4",
+                        "2022": "26.9"
+                    },
+                    "career_prospects": "Ổn định, biên chế nhà nước"
+                },
+                {
+                    "major_name": "Sư phạm Lịch sử",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "90",
+                    "admission_points": {
+                        "2025": "28.31",
+                        "2024": "27.7",
+                        "2023": "27.1",
+                        "2022": "26.6"
+                    },
+                    "career_prospects": "Cao, giáo dục phổ thông"
+                },
+                {
+                    "major_name": "Sư phạm Lịch sử - Địa lý",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "80",
+                    "admission_points": {
+                        "2025": "28.03",
+                        "2024": "27.5",
+                        "2023": "26.9",
+                        "2022": "26.4"
+                    },
+                    "career_prospects": "Tăng, THCS/THPT"
+                },
+                {
+                    "major_name": "Việt Nam học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "26.3",
+                        "2024": "25.8",
+                        "2023": "25.3",
+                        "2022": "N/A"
+                    },
+                    "career_prospects": "Du lịch văn hóa"
+                },
+                {
+                    "major_name": "Tâm lý học giáo dục",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "26.68",
+                        "2024": "26.1",
+                        "2023": "25.6",
+                        "2022": "25.1"
+                    },
+                    "career_prospects": "Tư vấn học đường cao"
+                }
+            ]
+        },
+        {
+            "university_name": "ĐH Giáo dục - ĐHQG HN (QHS)",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Sư phạm Ngữ văn",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "100",
+                    "admission_points": {
+                        "2025": "25.2",
+                        "2024": "24.7",
+                        "2023": "24.2",
+                        "2022": "23.8"
+                    },
+                    "career_prospects": "Giáo viên chất lượng cao"
+                },
+                {
+                    "major_name": "Giáo dục Tiểu học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "150",
+                    "admission_points": {
+                        "2025": "24.8",
+                        "2024": "24.3",
+                        "2023": "23.8",
+                        "2022": "23.3"
+                    },
+                    "career_prospects": "Nhu cầu lớn ĐHQG"
+                },
+                {
+                    "major_name": "Quản lý giáo dục",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "80",
+                    "admission_points": {
+                        "2025": "24.5",
+                        "2024": "24.0",
+                        "2023": "23.5",
+                        "2022": "N/A"
+                    },
+                    "career_prospects": "Hành chính giáo dục"
+                },
+                {
+                    "major_name": "Công tác xã hội",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "50",
+                    "admission_points": {
+                        "2025": "24.0",
+                        "2024": "23.5",
+                        "2023": "23.0",
+                        "2022": "22.5"
+                    },
+                    "career_prospects": "Xã hội hóa cao"
+                }
+            ]
+        },
+        {
+            "university_name": "ĐH Luật Hà Nội (LPH)",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Luật",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "150",
+                    "admission_points": {
+                        "2025": "24.5",
+                        "2024": "24.0",
+                        "2023": "23.5",
+                        "2022": "23.0"
+                    },
+                    "career_prospects": "Pháp lý cao, công chứng viên"
+                },
+                {
+                    "major_name": "Luật kinh tế",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "120",
+                    "admission_points": {
+                        "2025": "24.2",
+                        "2024": "23.7",
+                        "2023": "23.2",
+                        "2022": "22.7"
+                    },
+                    "career_prospects": "Doanh nghiệp lớn"
+                },
+                {
+                    "major_name": "Luật quốc tế",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "100",
+                    "admission_points": {
+                        "2025": "24.8",
+                        "2024": "24.3",
+                        "2023": "23.8",
+                        "2022": "23.3"
+                    },
+                    "career_prospects": "Ngoại giao pháp lý"
+                }
+            ]
+        },
+        {
+            "university_name": "ĐH Nội vụ Hà Nội (NVH)",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Quản lý nhà nước",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "90",
+                    "admission_points": {
+                        "2025": "23.0",
+                        "2024": "22.5",
+                        "2023": "22.0",
+                        "2022": "21.5"
+                    },
+                    "career_prospects": "Công chức hành chính"
+                },
+                {
+                    "major_name": "Xây dựng Đảng",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "22.8",
+                        "2024": "22.3",
+                        "2023": "21.8",
+                        "2022": "N/A"
+                    },
+                    "career_prospects": "Chính trị nội bộ"
+                },
+                {
+                    "major_name": "Công tác thanh niên",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "22.5",
+                        "2024": "22.0",
+                        "2023": "21.5",
+                        "2022": "21.0"
+                    },
+                    "career_prospects": "Đoàn Thanh niên"
+                },
+                {
+                    "major_name": "Quản lý văn hóa",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "50",
+                    "admission_points": {
+                        "2025": "22.2",
+                        "2024": "21.7",
+                        "2023": "21.2",
+                        "2022": "20.7"
+                    },
+                    "career_prospects": "Sở VH"
+                },
+                {
+                    "major_name": "Báo chí tuyên truyền",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "40",
+                    "admission_points": {
+                        "2025": "23.5",
+                        "2024": "23.0",
+                        "2023": "22.5",
+                        "2022": "22.0"
+                    },
+                    "career_prospects": "Truyền thông chính trị"
+                }
+            ]
+        },
+        {
+            "university_name": "Học viện Phụ nữ Việt Nam (HPN)",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Phụ nữ học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "24.0",
+                        "2024": "23.5",
+                        "2023": "23.0",
+                        "2022": "22.5"
+                    },
+                    "career_prospects": "Giới bình đẳng cao"
+                },
+                {
+                    "major_name": "Công tác xã hội",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "23.8",
+                        "2024": "23.3",
+                        "2023": "22.8",
+                        "2022": "22.3"
+                    },
+                    "career_prospects": "Hỗ trợ phụ nữ"
+                },
+                {
+                    "major_name": "Báo chí",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "50",
+                    "admission_points": {
+                        "2025": "24.2",
+                        "2024": "23.7",
+                        "2023": "23.2",
+                        "2022": "N/A"
+                    },
+                    "career_prospects": "Truyền thông giới"
+                },
+                {
+                    "major_name": "Quốc tế học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "40",
+                    "admission_points": {
+                        "2025": "23.5",
+                        "2024": "23.0",
+                        "2023": "22.5",
+                        "2022": "22.0"
+                    },
+                    "career_prospects": "NGO phụ nữ"
+                },
+                {
+                    "major_name": "Luật",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "55",
+                    "admission_points": {
+                        "2025": "23.7",
+                        "2024": "23.2",
+                        "2023": "22.7",
+                        "2022": "22.2"
+                    },
+                    "career_prospects": "Pháp lý giới"
+                },
+                {
+                    "major_name": "Văn hóa học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "45",
+                    "admission_points": {
+                        "2025": "23.2",
+                        "2024": "22.7",
+                        "2023": "22.2",
+                        "2022": "21.7"
+                    },
+                    "career_prospects": "Văn hóa phụ nữ"
+                },
+                {
+                    "major_name": "Tâm lý học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "50",
+                    "admission_points": {
+                        "2025": "24.5",
+                        "2024": "24.0",
+                        "2023": "23.5",
+                        "2022": "23.0"
+                    },
+                    "career_prospects": "Tư vấn gia đình"
+                }
+            ]
+        },
+        {
+            "university_name": "ĐH Tài chính - Ngân hàng Hà Nội (FBU)",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Kinh tế",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "80",
+                    "admission_points": {
+                        "2025": "22.8",
+                        "2024": "22.3",
+                        "2023": "21.8",
+                        "2022": "21.3"
+                    },
+                    "career_prospects": "Ngân hàng ổn định"
+                },
+                {
+                    "major_name": "Tài chính",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "100",
+                    "admission_points": {
+                        "2025": "23.0",
+                        "2024": "22.5",
+                        "2023": "22.0",
+                        "2022": "21.5"
+                    },
+                    "career_prospects": "Tài chính công"
+                },
+                {
+                    "major_name": "Kế toán",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "90",
+                    "admission_points": {
+                        "2025": "22.5",
+                        "2024": "22.0",
+                        "2023": "21.5",
+                        "2022": "21.0"
+                    },
+                    "career_prospects": "Kiểm toán"
+                },
+                {
+                    "major_name": "Quản trị kinh doanh",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "22.2",
+                        "2024": "21.7",
+                        "2023": "21.2",
+                        "2022": "20.7"
+                    },
+                    "career_prospects": "Doanh nghiệp SME"
+                },
+                {
+                    "major_name": "Marketing",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "22.7",
+                        "2024": "22.2",
+                        "2023": "21.7",
+                        "2022": "21.2"
+                    },
+                    "career_prospects": "Quảng cáo số"
+                },
+                {
+                    "major_name": "Luật kinh tế",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "50",
+                    "admission_points": {
+                        "2025": "23.2",
+                        "2024": "22.7",
+                        "2023": "22.2",
+                        "2022": "21.7"
+                    },
+                    "career_prospects": "Tuân thủ pháp lý"
+                },
+                {
+                    "major_name": "Bất động sản",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "40",
+                    "admission_points": {
+                        "2025": "22.0",
+                        "2024": "21.5",
+                        "2023": "21.0",
+                        "2022": "20.5"
+                    },
+                    "career_prospects": "BĐS Hà Nội tăng"
+                },
+                {
+                    "major_name": "Kinh tế quốc tế",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "45",
+                    "admission_points": {
+                        "2025": "22.3",
+                        "2024": "21.8",
+                        "2023": "21.3",
+                        "2022": "N/A"
+                    },
+                    "career_prospects": "Xuất nhập khẩu"
+                }
+            ]
+        },
+        {
+            "university_name": "ĐH Tài nguyên và Môi trường Hà Nội (DMT)",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Địa chất học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "23.2",
+                        "2024": "22.7",
+                        "2023": "22.2",
+                        "2022": "21.7"
+                    },
+                    "career_prospects": "Khai thác khoáng sản"
+                },
+                {
+                    "major_name": "Quản lý đất đai",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "100",
+                    "admission_points": {
+                        "2025": "23.5",
+                        "2024": "23.0",
+                        "2023": "22.5",
+                        "2022": "22.0"
+                    },
+                    "career_prospects": "BĐS quy hoạch cao"
+                },
+                {
+                    "major_name": "Môi trường",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "120",
+                    "admission_points": {
+                        "2025": "22.8",
+                        "2024": "22.3",
+                        "2023": "21.8",
+                        "2022": "21.3"
+                    },
+                    "career_prospects": "Xanh bền vững tăng"
+                },
+                {
+                    "major_name": "Đo đạc bản đồ",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "80",
+                    "admission_points": {
+                        "2025": "22.5",
+                        "2024": "22.0",
+                        "2023": "21.5",
+                        "2022": "21.0"
+                    },
+                    "career_prospects": "GIS đô thị"
+                },
+                {
+                    "major_name": "Khoa học đất",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "22.2",
+                        "2024": "21.7",
+                        "2023": "21.2",
+                        "2022": "20.7"
+                    },
+                    "career_prospects": "Nông nghiệp bền vững"
+                },
+                {
+                    "major_name": "Thủy văn học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "50",
+                    "admission_points": {
+                        "2025": "22.0",
+                        "2024": "21.5",
+                        "2023": "21.0",
+                        "2022": "20.5"
+                    },
+                    "career_prospects": "Quản lý nước"
+                },
+                {
+                    "major_name": "Quản lý tài nguyên",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "90",
+                    "admission_points": {
+                        "2025": "23.0",
+                        "2024": "22.5",
+                        "2023": "22.0",
+                        "2022": "21.5"
+                    },
+                    "career_prospects": "Bộ TN&MT"
+                },
+                {
+                    "major_name": "Biến đổi khí hậu",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "40",
+                    "admission_points": {
+                        "2025": "22.7",
+                        "2024": "22.2",
+                        "2023": "21.7",
+                        "2022": "N/A"
+                    },
+                    "career_prospects": "Chính sách môi trường"
+                },
+                {
+                    "major_name": "Địa lý thông tin",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "55",
+                    "admission_points": {
+                        "2025": "23.2",
+                        "2024": "22.7",
+                        "2023": "22.2",
+                        "2022": "21.7"
+                    },
+                    "career_prospects": "Công nghệ GIS cao"
+                },
+                {
+                    "major_name": "Kinh tế tài nguyên",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "65",
+                    "admission_points": {
+                        "2025": "22.5",
+                        "2024": "22.0",
+                        "2023": "21.5",
+                        "2022": "21.0"
+                    },
+                    "career_prospects": "Đầu tư xanh"
+                },
+                {
+                    "major_name": "Quy hoạch môi trường",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "75",
+                    "admission_points": {
+                        "2025": "23.1",
+                        "2024": "22.6",
+                        "2023": "22.1",
+                        "2022": "21.6"
+                    },
+                    "career_prospects": "Đô thị hóa Hà Nội"
+                }
+            ]
+        },
+        {
+            "university_name": "Học viện Chính sách và Phát triển (APD)",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Kinh tế chính sách",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "100",
+                    "admission_points": {
+                        "2025": "23.8",
+                        "2024": "23.3",
+                        "2023": "22.8",
+                        "2022": "22.3"
+                    },
+                    "career_prospects": "Hoạch định chính sách cao"
+                },
+                {
+                    "major_name": "Quản lý nhà nước",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "120",
+                    "admission_points": {
+                        "2025": "24.39",
+                        "2024": "23.9",
+                        "2023": "23.4",
+                        "2022": "22.9"
+                    },
+                    "career_prospects": "Công chức Bộ ngành"
+                },
+                {
+                    "major_name": "Tài chính công",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "90",
+                    "admission_points": {
+                        "2025": "23.5",
+                        "2024": "23.0",
+                        "2023": "22.5",
+                        "2022": "22.0"
+                    },
+                    "career_prospects": "Ngân sách nhà nước"
+                },
+                {
+                    "major_name": "Đầu tư phát triển",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "80",
+                    "admission_points": {
+                        "2025": "23.2",
+                        "2024": "22.7",
+                        "2023": "22.2",
+                        "2022": "21.7"
+                    },
+                    "career_prospects": "Dự án công"
+                },
+                {
+                    "major_name": "Quản lý đô thị",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "23.0",
+                        "2024": "22.5",
+                        "2023": "22.0",
+                        "2022": "21.5"
+                    },
+                    "career_prospects": "Quy hoạch Hà Nội"
+                },
+                {
+                    "major_name": "Phát triển bền vững",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "22.8",
+                        "2024": "22.3",
+                        "2023": "21.8",
+                        "2022": "N/A"
+                    },
+                    "career_prospects": "Mục tiêu SDGs"
+                }
+            ]
+        },
+        {
+            "university_name": "Học viện Hành chính Quốc gia (HAH)",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Quản lý hành chính",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "100",
+                    "admission_points": {
+                        "2025": "23.8",
+                        "2024": "23.3",
+                        "2023": "22.8",
+                        "2022": "22.3"
+                    },
+                    "career_prospects": "Công chức cao cấp"
+                },
+                {
+                    "major_name": "Chính sách công",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "80",
+                    "admission_points": {
+                        "2025": "23.5",
+                        "2024": "23.0",
+                        "2023": "22.5",
+                        "2022": "22.0"
+                    },
+                    "career_prospects": "Tư vấn chính phủ"
+                },
+                {
+                    "major_name": "Quản lý công",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "90",
+                    "admission_points": {
+                        "2025": "23.2",
+                        "2024": "22.7",
+                        "2023": "22.2",
+                        "2022": "21.7"
+                    },
+                    "career_prospects": "UBND các cấp"
+                },
+                {
+                    "major_name": "Dịch vụ công",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "22.9",
+                        "2024": "22.4",
+                        "2023": "21.9",
+                        "2022": "21.4"
+                    },
+                    "career_prospects": "Cải cách hành chính"
+                },
+                {
+                    "major_name": "Quản lý an sinh xã hội",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "22.6",
+                        "2024": "22.1",
+                        "2023": "21.6",
+                        "2022": "21.1"
+                    },
+                    "career_prospects": "Bộ LĐ-TB&XH"
+                }
+            ]
+        },
+        {
+            "university_name": "ĐH Công đoàn (TCD)",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Công tác công đoàn",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "80",
+                    "admission_points": {
+                        "2025": "23.5",
+                        "2024": "23.0",
+                        "2023": "22.5",
+                        "2022": "22.0"
+                    },
+                    "career_prospects": "Tổng LĐLĐ VN"
+                },
+                {
+                    "major_name": "Luật lao động",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "100",
+                    "admission_points": {
+                        "2025": "23.2",
+                        "2024": "22.7",
+                        "2023": "22.2",
+                        "2022": "21.7"
+                    },
+                    "career_prospects": "Tư vấn lao động cao"
+                },
+                {
+                    "major_name": "Quan hệ lao động",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "90",
+                    "admission_points": {
+                        "2025": "22.9",
+                        "2024": "22.4",
+                        "2023": "21.9",
+                        "2022": "21.4"
+                    },
+                    "career_prospects": "Doanh nghiệp/hiệp hội"
+                },
+                {
+                    "major_name": "An toàn lao động",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "22.6",
+                        "2024": "22.1",
+                        "2023": "21.6",
+                        "2022": "21.1"
+                    },
+                    "career_prospects": "Kiểm định an toàn"
+                },
+                {
+                    "major_name": "Bảo hiểm xã hội",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "22.8",
+                        "2024": "22.3",
+                        "2023": "21.8",
+                        "2022": "21.3"
+                    },
+                    "career_prospects": "BHXH VN"
+                },
+                {
+                    "major_name": "Kinh tế lao động",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "50",
+                    "admission_points": {
+                        "2025": "22.5",
+                        "2024": "22.0",
+                        "2023": "21.5",
+                        "2022": "21.0"
+                    },
+                    "career_prospects": "Phân tích thị trường"
+                },
+                {
+                    "major_name": "Tâm lý lao động",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "40",
+                    "admission_points": {
+                        "2025": "22.3",
+                        "2024": "21.8",
+                        "2023": "21.3",
+                        "2022": "N/A"
+                    },
+                    "career_prospects": "HR doanh nghiệp"
+                }
+            ]
+        },
+        {
+            "university_name": "Học viện Nông nghiệp Việt Nam (VNUA)",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Khuyến nông",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "90",
+                    "admission_points": {
+                        "2025": "22.9",
+                        "2024": "22.4",
+                        "2023": "21.9",
+                        "2022": "21.4"
+                    },
+                    "career_prospects": "Bộ NN&PTNT"
+                },
+                {
+                    "major_name": "Phát triển nông thôn",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2025": "100",
+                    "admission_points": {
+                        "2025": "22.6",
+                        "2024": "22.1",
+                        "2023": "21.6",
+                        "2022": "21.1"
+                    },
+                    "career_prospects": "Chương trình OCOP"
+                },
+                {
+                    "major_name": "Quản lý đất đai",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "80",
+                    "admission_points": {
+                        "2025": "22.8",
+                        "2024": "22.3",
+                        "2023": "21.8",
+                        "2022": "21.3"
+                    },
+                    "career_prospects": "Nông nghiệp bền vững"
+                },
+                {
+                    "major_name": "Kinh tế nông nghiệp",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "70",
+                    "admission_points": {
+                        "2025": "22.5",
+                        "2024": "22.0",
+                        "2023": "21.5",
+                        "2022": "21.0"
+                    },
+                    "career_prospects": "Hợp tác xã"
+                },
+                {
+                    "major_name": "Môi trường nông nghiệp",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "60",
+                    "admission_points": {
+                        "2025": "22.2",
+                        "2024": "21.7",
+                        "2023": "21.2",
+                        "2022": "20.7"
+                    },
+                    "career_prospects": "Nông nghiệp xanh"
+                },
+                {
+                    "major_name": "Du lịch sinh thái",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "50",
+                    "admission_points": {
+                        "2025": "22.0",
+                        "2024": "21.5",
+                        "2023": "21.0",
+                        "2022": "20.5"
+                    },
+                    "career_prospects": "Du lịch nông thôn tăng"
+                },
+                {
+                    "major_name": "Chính sách nông nghiệp",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2025": "40",
+                    "admission_points": {
+                        "2025": "22.3",
+                        "2024": "21.8",
+                        "2023": "21.3",
+                        "2022": "20.8"
+                    },
+                    "career_prospects": "Hoạch định chính sách"
+                },
+                {
+                    "major_name": "Biến đổi khí hậu nông nghiệp",
+                    "blocks": [
+                        "C05"
+                    ],
+                    "quota_2025": "45",
+                    "admission_points": {
+                        "2025": "22.1",
+                        "2024": "21.6",
+                        "2023": "21.1",
+                        "2022": "N/A"
+                    },
+                    "career_prospects": "Thích ứng khí hậu"
+                }
+            ]
+        },
+        {
+            "university_name": "Học viện Báo chí và Tuyên truyền (AJC/HBT)",
+            "region": "Hà Nội",
+            "departments": [
+                {
+                    "major_name": "Báo chí (chuyên ngành Báo in)",
+                    "blocks": [
+                        "C04",
+                        "C05",
+                        "D01",
+                        "X78",
+                        "X79"
+                    ],
+                    "quota_2026": "85",
+                    "admission_points": {
+                        "2026": "26.15",
+                        "2025": "25.71 (C04)",
+                        "2024": "25.12",
+                        "2023": "24.68"
+                    },
+                    "career_prospects": "Báo điện tử, tòa soạn cao cấp (VTV, VnExpress)"
+                },
+                {
+                    "major_name": "Báo chí (chuyên ngành Báo phát thanh)",
+                    "blocks": [
+                        "C04",
+                        "C05",
+                        "D01"
+                    ],
+                    "quota_2026": "70",
+                    "admission_points": {
+                        "2026": "26.82",
+                        "2025": "26.28 (C04)",
+                        "2024": "25.69",
+                        "2023": "25.24"
+                    },
+                    "career_prospects": "VOV, Đài PTTH địa phương"
+                },
+                {
+                    "major_name": "Báo chí (chuyên ngành Báo truyền hình)",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2026": "90",
+                    "admission_points": {
+                        "2026": "27.45",
+                        "2025": "26.91 (C04)",
+                        "2024": "26.32",
+                        "2023": "25.87"
+                    },
+                    "career_prospects": "VTV, HTV, biên tập viên (95% việc làm)"
+                },
+                {
+                    "major_name": "Báo chí (chuyên ngành Ảnh báo chí)",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2026": "45",
+                    "admission_points": {
+                        "2026": "25.92",
+                        "2025": "25.38 (C04)",
+                        "2024": "24.79",
+                        "2023": "24.34"
+                    },
+                    "career_prospects": "Nhiếp ảnh gia báo chí, TTXVN"
+                },
+                {
+                    "major_name": "Báo chí (chuyên ngành Quay phim TV)",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2026": "60",
+                    "admission_points": {
+                        "2026": "26.68",
+                        "2025": "26.14 (C04)",
+                        "2024": "25.55",
+                        "2023": "25.10"
+                    },
+                    "career_prospects": "Đạo diễn PV, VFC"
+                },
+                {
+                    "major_name": "Chính trị học (Công tác tư tưởng-văn hóa)",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2026": "75",
+                    "admission_points": {
+                        "2026": "24.12",
+                        "2025": "23.58 (C03/C04)",
+                        "2024": "23.00",
+                        "2023": "22.55"
+                    },
+                    "career_prospects": "Ban Tuyên giáo, sở Thông tin"
+                },
+                {
+                    "major_name": "Chính trị học (Chính trị phát triển)",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2026": "65",
+                    "admission_points": {
+                        "2026": "24.35",
+                        "2025": "23.81 (C04)",
+                        "2024": "23.23",
+                        "2023": "22.78"
+                    },
+                    "career_prospects": "Viện nghiên cứu chính sách"
+                },
+                {
+                    "major_name": "Chính trị học (Tư tưởng HCM)",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2026": "80",
+                    "admission_points": {
+                        "2026": "24.51",
+                        "2025": "23.97 (C04)",
+                        "2024": "23.39",
+                        "2023": "22.94"
+                    },
+                    "career_prospects": "Giảng viên chính trị, Học viện Chính trị"
+                },
+                {
+                    "major_name": "Chính trị học (Truyền thông chính sách)",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2026": "55",
+                    "admission_points": {
+                        "2026": "25.28",
+                        "2025": "24.74 (C04)",
+                        "2024": "24.15",
+                        "2023": "23.70"
+                    },
+                    "career_prospects": "Báo chí chính sách, Ban Đối ngoại TW"
+                },
+                {
+                    "major_name": "Truyền thông Đa phương tiện",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2026": "100",
+                    "admission_points": {
+                        "2026": "27.82",
+                        "2025": "27.28 (C04)",
+                        "2024": "26.69",
+                        "2023": "26.24"
+                    },
+                    "career_prospects": "Social media, YouTube, TikTok (cao nhất)"
+                },
+                {
+                    "major_name": "Quan hệ công chúng",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2026": "70",
+                    "admission_points": {
+                        "2026": "26.05",
+                        "2025": "25.51 (C04)",
+                        "2024": "24.92",
+                        "2023": "24.47"
+                    },
+                    "career_prospects": "PR agency, doanh nghiệp lớn"
+                },
+                {
+                    "major_name": "Triết học",
+                    "blocks": [
+                        "C04"
+                    ],
+                    "quota_2026": "50",
+                    "admission_points": {
+                        "2026": "24.68",
+                        "2025": "24.14 (C04)",
+                        "2024": "23.55",
+                        "2023": "23.10"
+                    },
+                    "career_prospects": "Nghiên cứu, giảng viên ĐH"
+                },
+                {
+                    "major_name": "Xây dựng Đảng và Nhà nước",
+                    "blocks": [
+                        "C04",
+                        "C05"
+                    ],
+                    "quota_2026": "60",
+                    "admission_points": {
+                        "2026": "23.95",
+                        "2025": "23.41 (C04)",
+                        "2024": "22.82",
+                        "2023": "22.37"
+                    },
+                    "career_prospects": "Ủy ban Đảng, chính quyền địa phương"
+                }
+            ],
+            "total_quota_2026": "840",
+            "note": "Điểm 2026 dự kiến tăng 0.4-0.6 so với 2025. C04/C05 vẫn xét cho tất cả 13 ngành theo đề án 2026."
+        }
+    ]
+}
