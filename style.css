@@ -165,6 +165,7 @@ body {
     top: auto;
     transform: translateX(0);
     animation: sway 8s infinite alternate ease-in-out;
+    position: fixed; /* đảm bảo bubble absolute hoạt động đúng */
 }
 
 #pixel-cat.corner-pos #cat-img {
@@ -408,16 +409,256 @@ body {
     100% { transform: translateY(-200px) scale(0); opacity: 0; }
 }
 
-@media (max-width: 480px) {
+/* ===== MOBILE RESPONSIVE ===== */
+
+/* --- Tablet / nhỏ hơn 600px --- */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        align-items: flex-start;
+        padding-top: 70px; /* chừa chỗ cho mèo toolbar */
+    }
+
     .app-container {
         border-radius: 20px;
-        padding: 20px;
+        padding: 20px 16px;
+        min-height: unset;
     }
+
+    .header h2 {
+        font-size: 20px;
+    }
+
+    .header p {
+        font-size: 14px;
+    }
+
+    /* --- Con mèo Dororo trên thanh toolbar --- */
+    #pixel-cat.toolbar-pos {
+        top: 6px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    #pixel-cat.toolbar-pos #cat-img {
+        width: 48px;
+    }
+
+    #pixel-cat.toolbar-pos .cat-bubble {
+        font-size: 12px;
+        padding: 7px 10px;
+        max-width: calc(100vw - 40px);
+    }
+
+    /* Khi mèo ở góc mobile: bottom-right nhỏ gọn */
+    #pixel-cat.corner-pos {
+        bottom: 12px;
+        right: 12px;
+        left: auto;
+        top: auto;
+        flex-direction: column;
+        animation: sway-mobile 8s infinite alternate ease-in-out;
+    }
+
+    @keyframes sway-mobile {
+        0% { right: 12px; }
+        100% { right: 24px; }
+    }
+
+    #pixel-cat.corner-pos #cat-img {
+        width: 70px;
+    }
+
+    /* Bubble xuất hiện phía trên hình mèo */
+    #pixel-cat.corner-pos .cat-bubble {
+        font-size: 12px;
+        padding: 8px 11px;
+        max-width: min(220px, calc(100vw - 100px));
+        position: absolute;
+        bottom: calc(100% + 6px);
+        right: 0;
+        left: auto;
+        margin-bottom: 0;
+    }
+
+    /* --- Điểm nhập --- */
     .scores-grid {
-        gap: 15px;
+        gap: 12px;
     }
-    #cat-img {
-        width: 80px;
+
+    .score-input input {
+        padding: 12px 8px;
+        font-size: 16px; /* tránh auto-zoom trên iOS */
+    }
+
+    .magic-btn {
+        padding: 16px;
+        font-size: 16px;
+        /* Touch area đủ lớn */
+        min-height: 52px;
+    }
+
+    /* --- Divider --- */
+    .divider {
+        margin: 20px 0 15px;
+    }
+
+    /* --- School preview --- */
+    .school-preview-container {
+        max-height: 180px;
+    }
+
+    .preview-major-item {
+        grid-template-columns: 1fr 60px 42px;
+        font-size: 12px;
+        gap: 4px;
+    }
+
+    /* --- Result screen --- */
+    .results-header h2 {
+        font-size: 18px;
+    }
+
+    .icon-btn {
+        font-size: 14px;
+        padding: 10px 14px;
+        min-height: 44px; /* touch target */
+    }
+
+    /* --- Score badges --- */
+    .user-scores-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .score-badge {
+        flex: 1 1 calc(50% - 10px);
+        min-width: 120px;
+        padding: 8px 10px;
+    }
+
+    .score-badge .score-label {
+        font-size: 11px;
+    }
+
+    .score-badge .score-value {
+        font-size: 18px;
+    }
+
+    /* --- Best match card --- */
+    .best-match-card {
+        padding: 18px 14px;
+        border-radius: 20px;
+    }
+
+    .best-match-card .uni-name {
+        font-size: 17px;
+    }
+
+    .best-match-card .major-name {
+        font-size: 15px;
+    }
+
+    .prob-circle {
+        width: 76px;
+        height: 76px;
+        font-size: 24px;
+    }
+
+    /* --- History points --- */
+    .history-points {
+        padding: 8px 6px;
+    }
+
+    .hp-item .hp-score {
+        font-size: 14px;
+    }
+
+    /* --- Score prediction --- */
+    .score-prediction {
+        font-size: 13px;
+    }
+
+    /* --- Other matches --- */
+    .other-matches-list {
+        max-height: 220px;
+    }
+
+    .match-item {
+        padding: 12px;
+        border-radius: 16px;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .match-uni {
+        font-size: 14px;
+    }
+
+    .match-major,
+    .match-prediction {
+        font-size: 12px;
+    }
+
+    .match-prob {
+        font-size: 16px;
+        padding: 6px 10px;
+        margin-left: 0;
+        align-self: flex-end;
+    }
+}
+
+/* --- Extra small (iPhone SE, dưới 360px) --- */
+@media (max-width: 360px) {
+    body {
+        padding: 6px;
+        padding-top: 64px;
+    }
+
+    .app-container {
+        padding: 16px 12px;
+        border-radius: 16px;
+    }
+
+    .header h2 {
+        font-size: 17px;
+    }
+
+    .scores-grid {
+        gap: 10px;
+    }
+
+    .score-input input {
+        padding: 10px 6px;
+        font-size: 15px;
+        border-radius: 16px;
+    }
+
+    .magic-btn {
+        font-size: 15px;
+        border-radius: 16px;
+    }
+
+    #pixel-cat.toolbar-pos #cat-img {
+        width: 40px;
+    }
+
+    #pixel-cat.corner-pos #cat-img {
+        width: 58px;
+    }
+
+    .user-scores-container {
+        gap: 8px;
+    }
+
+    .score-badge {
+        flex: 1 1 100%;
+    }
+
+    .prob-circle {
+        width: 66px;
+        height: 66px;
+        font-size: 20px;
     }
 }
 
