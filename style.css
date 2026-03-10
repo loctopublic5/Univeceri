@@ -540,8 +540,10 @@ body {
 }
 
 .preview-major-item {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 70px 48px;
+    align-items: center;
+    gap: 6px;
     font-size: 13px;
     margin-bottom: 4px;
 }
@@ -555,9 +557,21 @@ body {
     font-weight: 600;
 }
 
+.preview-major-blocks {
+    font-size: 11px;
+    color: #888;
+    background: rgba(255,182,193,0.2);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-weight: 600;
+    text-align: center;
+}
+
 .preview-major-score {
     color: var(--dark-pink);
     font-weight: 800;
+    text-align: right;
+    white-space: nowrap;
 }
 
 /* Hiệu ứng chớp cảnh báo cho nút */

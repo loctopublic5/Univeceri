@@ -73,10 +73,10 @@ function setupEventListeners() {
 
         const van = parseFloat(document.getElementById('score-van').value) || 0;
         const toan = parseFloat(document.getElementById('score-toan').value) || 0;
-        const ly = parseFloat(document.getElementById('score-ly').value) || 0;
+        const ly = parseFloat(document.getElementById('score-gdktpl').value) || 0;
         const dia = parseFloat(document.getElementById('score-dia').value) || 0;
 
-        // Tính theo khối C04 và C05 như yêu cầu
+        // Tính theo khối C04 và C14 như yêu cầu
         const c04 = van + toan + dia;
         const c05 = van + toan + ly;
 
@@ -166,12 +166,15 @@ function renderSchoolPreview() {
         depts.forEach(dept => {
             let deptName = dept.major_name || dept.name;
             let admissionHistory = dept.admission_points || {};
-            let score25 = admissionHistory["2025"] || dept.score2025 || "N/A";
+            // Ưu tiên điểm 2026 nếu có (đặc biệt cho AJC), rồi đến 2025
+            let score25 = admissionHistory["2026"] || admissionHistory["2025"] || dept.score2025 || "N/A";
+            let blocks = (dept.blocks || []).join(", ") || "C04";
 
             if (score25 !== "N/A") {
                 majorsHtml += `
                     <div class="preview-major-item">
                         <span class="preview-major-name">${deptName}</span>
+                        <span class="preview-major-blocks">${blocks}</span>
                         <span class="preview-major-score">${score25}</span>
                     </div>
                 `;
@@ -194,18 +197,18 @@ function renderSchoolPreview() {
 function getExpectedPoints(c04, c05, blocks, reqScore, isAJC) {
     let useScore = 0;
     let usedBlock = "";
-    if (blocks.includes("C04") && blocks.includes("C05")) {
+    if (blocks.includes("C04") && (blocks.includes("C14") || blocks.includes("C05"))) {
         useScore = Math.max(c04, c05);
-        usedBlock = c04 > c05 ? "C04" : "C05";
+        usedBlock = c04 > c05 ? "C04" : "C14";
     } else if (blocks.includes("C04")) {
         useScore = c04;
         usedBlock = "C04";
-    } else if (blocks.includes("C05")) {
+    } else if (blocks.includes("C14") || blocks.includes("C05")) {
         useScore = c05;
-        usedBlock = "C05";
+        usedBlock = "C14";
     } else {
         useScore = Math.max(c04, c05);
-        usedBlock = c04 > c05 ? "C04" : "C05"; // Mặc định
+        usedBlock = c04 > c05 ? "C04" : "C14"; // Mặc định
     }
 
     // Biến đổi độ lệch chuẩn 
@@ -235,7 +238,7 @@ function processResults(c04, c05) {
                 <span class="score-value">${c04.toFixed(2)}</span>
             </div>
             <div class="score-badge main-badge">
-                <span class="score-label">C05 (Văn, Toán, Lý)</span>
+                <span class="score-label">C14 (Văn, Toán, GDKTPL)</span>
                 <span class="score-value">${c05.toFixed(2)}</span>
             </div>
         `;
@@ -256,6 +259,8 @@ function processResults(c04, c05) {
             let deptName = dept.major_name || dept.name;
             let blocks = dept.blocks || [];
             if (blocks.length === 0 && dept.block) blocks.push(dept.block);
+            // Đảm bảo cả dữ liệu cũ (C05) và mới (C14) đều được xử lý đúng
+            let effectiveBlocks = blocks.map(b => b === 'C05' ? 'C14' : b);
 
             let admissionHistory = dept.admission_points || {};
             let reqScoreStrBase = isAJC ? (admissionHistory["2026"] || admissionHistory["2025"]) : (admissionHistory["2025"] || dept.score2025);
@@ -268,7 +273,7 @@ function processResults(c04, c05) {
             let reqScore = parseFloat(reqScoreStrBase);
             if (isNaN(reqScore)) return;
 
-            let { useScore, usedBlock, modifier } = getExpectedPoints(c04, c05, blocks, reqScore, isAJC);
+            let { useScore, usedBlock, modifier } = getExpectedPoints(c04, c05, effectiveBlocks, reqScore, isAJC);
 
             // Tính toán điểm chuẩn dự kiến (không bóp méo hạ thấp hơn điểm thật nữa)
             let estimatedReqScore = reqScore + modifier;
@@ -281,7 +286,7 @@ function processResults(c04, c05) {
                 uniName: uni.university_name || uni.name,
                 major: deptName,
                 score: useScore,
-                block: usedBlock,
+                block: usedBlock.replace('C14', 'C14 (GDKTPL)'),
                 estimatedReqScore: estimatedReqScore,
                 reqScore25: reqScore,
                 reqScore24: reqScoreStr24,
@@ -461,7 +466,7 @@ function showCatMessage(msg, duration = 4000) {
     catTimeout = setTimeout(() => {
         bubble.classList.remove('show');
     }, duration);
-} 
+}
 
 function resetCat() {
     const catImg = document.getElementById('cat-img');
