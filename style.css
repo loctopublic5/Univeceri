@@ -196,7 +196,8 @@ body {
     transition: all 0.3s;
     font-weight: 800;
     text-align: center;
-    max-width: 250px;
+    width: max-content;
+    max-width: min(250px, 65vw);
     word-wrap: break-word;
 }
 
@@ -447,7 +448,7 @@ body {
     #pixel-cat.toolbar-pos .cat-bubble {
         font-size: 12px;
         padding: 7px 10px;
-        max-width: calc(100vw - 40px);
+        max-width: min(180px, 55vw);
     }
 
     /* Khi mèo ở góc mobile: bottom-right nhỏ gọn */
